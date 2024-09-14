@@ -83,6 +83,7 @@ const positionCallBack = async (position) => {
   renderCurrentweather(currentData);
   renderForecastWeather(forecastData);
 };
+
 const errorCallBack = (error) => {
   showModal(error.message);
 };
